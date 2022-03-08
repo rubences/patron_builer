@@ -1,10 +1,10 @@
-package patron_builer.builders;
+package builders;
 
-import patron_builer.cars.CarType;
-import patron_builer.components.Engine;
-import patron_builer.components.GPSNavigator;
-import patron_builer.components.Transmission;
-import patron_builer.components.TripComputer;
+import cars.CarType;
+import components.Engine;
+import components.GPSNavigator;
+import components.Transmission;
+import components.TripComputer;
 
 /**
  * Builder interface defines all possible ways to configure a product.

@@ -1,11 +1,11 @@
-package patron_builer.director;
+package director;
 
-import patron_builer.builders.Builder;
-import patron_builer.cars.CarType;
-import patron_builer.components.Engine;
-import patron_builer.components.GPSNavigator;
-import patron_builer.components.Transmission;
-import patron_builer.components.TripComputer;
+import builders.Builder;
+import cars.CarType;
+import components.Engine;
+import components.GPSNavigator;
+import components.Transmission;
+import components.TripComputer;
 
 /**
  * Director defines the order of building steps. It works with a builder object

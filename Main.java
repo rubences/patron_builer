@@ -1,10 +1,9 @@
-package patron_builer;
 
-import patron_builer.builders.CarBuilder;
-import patron_builer.builders.CarManualBuilder;
-import patron_builer.cars.Car;
-import patron_builer.cars.Manual;
-import patron_builer.director.Director;
+import builders.CarBuilder;
+import builders.CarManualBuilder;
+import cars.Car;
+import cars.Manual;
+import director.Director;
 
 /**
  * Demo class. Everything comes together here.

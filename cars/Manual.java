@@ -1,9 +1,9 @@
-package patron_builer.cars;
+package cars;
 
-import patron_builer.components.Engine;
-import patron_builer.components.GPSNavigator;
-import patron_builer.components.Transmission;
-import patron_builer.components.TripComputer;
+import components.Engine;
+import components.GPSNavigator;
+import components.Transmission;
+import components.TripComputer;
 
 /**
  * Car manual is another product. Note that it does not have the same ancestor

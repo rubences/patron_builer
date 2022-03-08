@@ -1,11 +1,11 @@
-package patron_builer.builders;
+package builders;
 
-import patron_builer.cars.Manual;
-import patron_builer.cars.CarType;
-import patron_builer.components.Engine;
-import patron_builer.components.GPSNavigator;
-import patron_builer.components.Transmission;
-import patron_builer.components.TripComputer;
+import cars.Manual;
+import cars.CarType;
+import components.Engine;
+import components.GPSNavigator;
+import components.Transmission;
+import components.TripComputer;
 
 /**
  * Unlike other creational patterns, Builder can construct unrelated products,

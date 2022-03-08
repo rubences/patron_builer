@@ -1,6 +1,6 @@
-package patron_builer.components;
+package components;
 
-import patron_builer.cars.Car;
+import cars.Car;
 
 /**
  * Just another feature of a car.
