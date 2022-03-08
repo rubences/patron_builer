@@ -1,4 +1,3 @@
-
 import builders.CarBuilder;
 import builders.CarManualBuilder;
 import cars.Car;
@@ -18,20 +17,28 @@ public class Main {
         // builder to use to get a specific product.
         CarBuilder builder = new CarBuilder();
         director.constructSportsCar(builder);
+        CarBuilder builder2 = new CarBuilder();
+        director.constructCityCar(builder2);
 
         // The final product is often retrieved from a builder object, since
         // Director is not aware and not dependent on concrete builders and
         // products.
         Car car = builder.getResult();
         System.out.println("Car built:\n" + car.getCarType());
+       Car car2 = builder2.getResult();
+        System.out.println("Car built:\n" + car2.getCarType());
 
 
         CarManualBuilder manualBuilder = new CarManualBuilder();
+      CarManualBuilder manualBuilder2 = new CarManualBuilder();
 
         // Director may know several building recipes.
         director.constructSportsCar(manualBuilder);
         Manual carManual = manualBuilder.getResult();
         System.out.println("\nCar manual built:\n" + carManual.print());
+                  director.constructCityCar(manualBuilder2);
+        Manual carManual2 = manualBuilder2.getResult();
+        System.out.println("\nCar manual built:\n" + carManual2.print());
     }
 
 }
